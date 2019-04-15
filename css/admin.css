@@ -1,0 +1,33 @@
+#side-nav {
+    z-index: 1;
+   width: 0px;
+    position: absolute;
+    height: 100%;
+    overflow-y: hidden;
+    background: rgb(56, 116, 96);
+    border: 5px solid rgb(122, 113, 25);
+}
+
+#main-containt {
+    widows: 100%;
+    position: absolute;
+    padding: 15px;
+    border: 5px solid royalblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: block;
+    padding: 12px 12px;
+}
+
+#main.change #side-nav {
+    widows: 250px;
+}
+
+#main.change #main-containt {
+    padding-left: 250px;
+}

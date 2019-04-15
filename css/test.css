@@ -1,0 +1,43 @@
+body {
+    /*background-image: url("../images/back.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #c70909;
+}
+
+.carousel-inner img {
+    height: auto;
+    width: 100%;
+}
+.card-body{
+	display: none;
+}
+.card:hover .card-body{
+	display: block;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    display: none;
+    left: 0;
+    width: 100%;
+}
+
+.thumbnail:hover .caption {
+    display: block;
+}
+.thumbnail:hover img {
+    opacity: 0.6;
+}
+.caption .btn{
+    width: 90%;
+    font-size: 20px;
+
+}

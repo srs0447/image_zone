@@ -1,0 +1,18 @@
+.bg-4 { 
+    background-color: #5c046d;
+    color: #ffffff;
+    font-family: Halvetica;
+}
+.list-unstyled li a{
+	background-color: #44bb;
+	padding: 10px;
+	width: 100%;
+	margin: 5px;
+	font-size: 15px;
+	
+}
+.list-unstyled li:hover a{
+	color: black;
+	opacity: 0.8;
+
+}
